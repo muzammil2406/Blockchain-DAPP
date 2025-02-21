@@ -1,0 +1,70 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    
+    background-image: url("https://media.istockphoto.com/id/1759595524/photo/original-blurred-wide-format-background-image-of-an-open-office-space.webp?b=1&s=170667a&w=0&k=20&c=_aV7Hh1PlsuPsF-0JSciNgrQeDDk7EjOOjSHsctkRRM=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 500px;
+    max-width: 90%;
+}
+
+h1, h2 {
+    color: #333;
+    size: 20px;
+}
+
+.account-info, .transaction-form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    border:2px  solid black;
+    background-color: #5cb85c;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}

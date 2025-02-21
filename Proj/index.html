@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Wallet dApp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Wallet dApp</h1>
+        <div class="account-info">
+            <p>Account: <span id="account"></span></p>
+            <p>Balance: <span id="balance"></span> ETH</p>
+        </div>
+
+        <div class="transaction-form">
+            <h2>Deposit</h2>
+            <input type="text" id="depositAmount" placeholder="Amount in ETH">
+            <button onclick="deposit()">Deposit</button>
+
+            <h2>Withdraw</h2>
+            <input type="text" id="withdrawAmount" placeholder="Amount in ETH">
+            <button onclick="withdraw()">Withdraw</button>
+
+            <h2>Transfer</h2>
+            <input type="text" id="transferAddress" placeholder="Recipient Address">
+            <input type="text" id="transferAmount" placeholder="Amount in ETH">
+            <button onclick="transfer()">Transfer</button>
+        </div>
+
+        <h2>Transaction History</h2>
+        <table id="transactionsTable">
+            <tr>
+                <th>From</th>
+                <th>To</th>
+                <th>Amount (ETH)</th>
+                <th>Timestamp</th>
+            </tr>
+        </table>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.3/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
