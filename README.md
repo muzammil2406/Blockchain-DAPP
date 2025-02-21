@@ -12,9 +12,9 @@ This project demonstrates my ability to develop secure, decentralized applicatio
 
 ![image](https://github.com/user-attachments/assets/f30469e6-cdb4-4566-bf43-dddbe3acb448)
 
-![image](https://github.com/user-attachments/assets/04c0e47d-1531-44ea-9d86-a20e37ce84b4)
-
 ![image](https://github.com/user-attachments/assets/e54f3b03-1e90-44f5-8ae5-58450dedc79e)
+
+![image](https://github.com/user-attachments/assets/04c0e47d-1531-44ea-9d86-a20e37ce84b4)
 
 ![image](https://github.com/user-attachments/assets/0afc0fb2-95a9-4bc8-8462-a41777aec35f)
 
